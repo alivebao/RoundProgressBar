@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <com.miao.roundprogressbar.RoundProgressBar
+        android:id="@+id/roundbar1"
+        style="@style/RoundProgressBar_Default"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        custom:progress_current="0" />
+
+    <com.miao.roundprogressbar.RoundProgressBar
+        style="@style/RoundProgressBar_Funny_Orange"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="20dp"
+        custom:progress_current="10" />
+
+    <com.miao.roundprogressbar.RoundProgressBar
+        style="@style/RoundProgressBar_Beauty_Red"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="20dp"
+        custom:progress_current="20" />
+
+    <com.miao.roundprogressbar.RoundProgressBar
+        style="@style/RoundProgressBar_Grace_Yellow"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="20dp"
+        custom:progress_current="30" />
+
+</LinearLayout>
