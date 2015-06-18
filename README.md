@@ -9,7 +9,7 @@
 使用方法：
 
 ```java
-	  <com.miao.library.RoundProgressBar
+	  <com.miao.roundprogressbar.RoundProgressBar
         android:id="@+id/roundbar1"
         style="@style/RoundProgressBar_Default"
         android:layout_width="200px"
