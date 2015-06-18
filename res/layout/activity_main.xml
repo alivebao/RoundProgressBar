@@ -10,37 +10,34 @@
     <com.miao.roundprogressbar.RoundProgressBar
         android:id="@+id/roundbar1"
         style="@style/RoundProgressBar_Default"
-        android:layout_width="200px"
-        android:layout_height="200px"
+        android:layout_marginTop="100dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
-        android:padding="20dp"
         custom:progress_current="0" />
 
     <com.miao.roundprogressbar.RoundProgressBar
+        android:id="@+id/roundbar2"
         style="@style/RoundProgressBar_Funny_Orange"
-        android:layout_width="200px"
-        android:layout_height="200px"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_weight="1"
-        android:padding="20dp"
-        custom:progress_current="10" />
+        custom:progress_current="50" />
 
     <com.miao.roundprogressbar.RoundProgressBar
+        android:id="@+id/roundbar3"
         style="@style/RoundProgressBar_Beauty_Red"
-        android:layout_width="200px"
-        android:layout_height="200px"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_weight="1"
-        android:padding="20dp"
-        custom:progress_current="20" />
+        custom:progress_current="70" />
 
     <com.miao.roundprogressbar.RoundProgressBar
+        android:id="@+id/roundbar4"
         style="@style/RoundProgressBar_Grace_Yellow"
-        android:layout_width="200px"
-        android:layout_height="200px"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_gravity="center"
-        android:layout_weight="1"
-        android:padding="20dp"
-        custom:progress_current="30" />
+        custom:progress_current="100" />
 
 </LinearLayout>
