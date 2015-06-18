@@ -19,5 +19,7 @@
         custom:progress_current="0" />
 ```	
 
-效果图：
-![效果图](pic.jpeg) 
+效果图：     
+![效果图](pic.jpeg)        
+      
+IDE:Eclipse    
